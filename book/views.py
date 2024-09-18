@@ -14,3 +14,4 @@ class Home(APIView):
         content = {'message': 'Hello, World!'}
         return Response(content)
     
+    
